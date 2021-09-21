@@ -1,0 +1,19 @@
+{
+    "name": "gexnqn",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "WithGex Tools",
+    "license": "ISC",
+    "dependencies": {
+      "discord.js": "^12.4.0",
+      "dotenv": "^10.0.0",
+      "express": "^4.17.1",
+      "node": "^16.6.1",
+      "ping-monitor": "^0.6.1"
+    }
+  }
