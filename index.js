@@ -3,7 +3,7 @@ const client = new discord.Client();
 const { token } = require("./config.json")
 const keepAlive = require('./server');
 const Monitor = require('ping-monitor');
- 
+
 keepAlive();
 const monitor = new Monitor({
     website: 'LINK',
@@ -18,7 +18,7 @@ monitor.on('error', (error) => console.log(error));
 
 client.on("ready", () => {
   console.log("[--------------------- P R E P A R A D O ---------------------]");
-  client.user.setActivity("Programmed by WithGex Tools");
+  client.user.setActivity("By Gex Tools");
 })
 
 client.on("message", async (message) => {
