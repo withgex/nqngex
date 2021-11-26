@@ -1,4 +1,4 @@
 # NQN Gex Tools
 
-https://linkfly.to/withgex
+https://withgex.wixsite.com/tools/projects
 Discord Bot - Post emojis gifs / png / jpg
