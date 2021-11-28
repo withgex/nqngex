@@ -2,12 +2,12 @@ const discord = require("discord.js");
 const client = new discord.Client();
 const { token } = require("./config.json")
 const keepAlive = require('./server');
-const Monitor = require('ping-monitor');
+const Monitor = require('ping-monitor');const mySecret = process.env['TOKEN']
 
 keepAlive();
 const monitor = new Monitor({
-    website: 'LINK',
-    title: 'Nombre',
+    website: 'https://withgex.wixsite.com/tools/upmonitor',
+    title: 'UpMonitor',
     interval: 30 // minutes
 });
  
@@ -18,7 +18,7 @@ monitor.on('error', (error) => console.log(error));
 
 client.on("ready", () => {
   console.log("[--------------------- P R E P A R A D O ---------------------]");
-  client.user.setActivity("By Gex Tools");
+  client.user.setActivity("Gex Tools - dsc.gg/gex");
 })
 
 client.on("message", async (message) => {
